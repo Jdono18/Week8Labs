@@ -1,0 +1,1 @@
+The Property was accessed during render but not defined on instance Vue warning means that when the page was loaded a function or property is defined in the code but not returned.  You can fix this error by making sure the function or property is returned somewhere in your code.  For example by using return{object} inside setup().   
