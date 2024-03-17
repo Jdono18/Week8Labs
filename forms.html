@@ -18,7 +18,7 @@
     <p v-if="name"> Thanks, your name is {{name}}</p>
     <p v-else> Awaiting user input</p>
 
-    <button v-on:click="clearName">Clear Name</button>
+    <button v-if="name" v-on:click="clearName">Clear Name</button>
 
 
 </div>
